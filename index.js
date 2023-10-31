@@ -8,6 +8,7 @@ const app = express();
 // parse application/json
 app.use(bodyParser.json());
 
+
 // serve static files
 app.use(express.static('public'));
 
